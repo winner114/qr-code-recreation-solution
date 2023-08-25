@@ -1,0 +1,43 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color:#D5E1EF;  
+  }
+  
+  .parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+  }
+
+  img{
+    border-style:hidden;
+     border-radius: 10px;
+     margin:20px;
+  }
+
+  .text2{
+    text-align: center;
+    margin-top: 10px;
+    color: grey;
+  }
+
+  .text1{
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .child{
+    background-color: white;
+    
+    border-style: hidden;
+    border-radius: 20px;
+  }
