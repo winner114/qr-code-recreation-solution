@@ -6,7 +6,8 @@
 }
 
 body{
-    background-color:#D5E1EF;  
+    background-color:#D5E1EF;
+    user-select: none;
   }
   
   .parent{
@@ -20,19 +21,29 @@ body{
   img{
     border-style:hidden;
      border-radius: 10px;
-     margin:20px;
+     left: 0px;
+     position: relative;
+     top:10px;
+     
+
+    
+  }
+
+
+  .text1{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
   }
 
   .text2{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 30px;
     color: grey;
-  }
-
-  .text1{
-    padding-top: 20px;
-    text-align: center;
-    font-weight: 700;
+    margin-bottom: 30px;
+  
   }
 
   .child{
@@ -40,4 +51,7 @@ body{
     
     border-style: hidden;
     border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
   }
